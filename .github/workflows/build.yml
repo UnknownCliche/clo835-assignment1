@@ -2,7 +2,7 @@ name: Build and Push to ECR
 on:
   push:
     branches:
-      - main  # Change to 'master' if that's your default branch
+      - master  # Change to 'master' if that's your default branch
 jobs:
   build:
     runs-on: ubuntu-latest
